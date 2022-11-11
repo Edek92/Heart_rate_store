@@ -86,4 +86,16 @@ $(document).ready(function(){
     validForms ('#consultation form');
 
     $("input[name=phone]").mask("+375 (99) 999-99-99")
+
+    // Smooth scroll and page up
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1600) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    })
+
+    new WOW().init()
 });
