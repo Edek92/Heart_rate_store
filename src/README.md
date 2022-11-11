@@ -1,1 +1,1 @@
-https://github.com/Edek92/Heart_rate_store/tree/main/src
+https://edek92.github.io/Heart_rate_store/src/
