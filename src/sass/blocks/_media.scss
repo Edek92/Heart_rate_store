@@ -115,15 +115,18 @@
     }
 
     .promo {
-        padding-bottom: 20px;
-        min-height: 530px;
+        padding-bottom: 60px;
+        min-height: 480px;
         &__wrapper {
             margin-top: 80px;
+            align-items: center;
         }
         &__header {
+            text-align: center;
             font-size: 30px;
         }
         &__subheader {
+            text-align: center;
             font-size: 16px;
         }
         &__icons {
@@ -157,12 +160,20 @@
     }
 
     .consultation {
+        min-height: 670px;
         .title {
             font-size: 22px;
             line-height: 42px;
+            text-align: center;
         }
         &__descr {
+            margin-top: 30px;
             font-size: 18px;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 80px;
         }
     }
 
@@ -222,6 +233,34 @@
         &__info {
             height: 140px;
             padding: 20px 30px 20px 30px;
+        }
+    }
+
+    #consultation {
+        width: 292px;
+        min-height: 330px;
+        padding: 30px 20px 20px 20px;
+        .feed-form {
+            width: 250px;
+            input {
+                height: 40px;
+            }
+            button {
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+        .modal {
+            &__close {
+                top: 3px;
+                right: 6px;
+            }
+            &__subtitle {
+                font-size: 14px;
+            }
+            &__descr {
+                font-size: 12px;
+            }
         }
     }
 }
